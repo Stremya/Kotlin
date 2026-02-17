@@ -45,3 +45,17 @@ fun main() {
     println("longNumber: $longNumber")
     println("floatNumber: $floatNumber")
 }
+
+// Задание 4
+fun main() {
+    val isSunny = true
+    val isRainy = false
+
+    println(isSunny && isRainy)  // false
+    println(isSunny || isRainy)  // true
+    println(!isRainy)            // true
+
+    // Первый результат false, потому что оператор && (логическое И)
+    // возвращает true только когда ОБА операнда true.
+    // isSunny = true, но isRainy = false, поэтому результат false.
+}
